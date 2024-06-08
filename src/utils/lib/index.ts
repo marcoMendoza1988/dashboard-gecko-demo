@@ -46,7 +46,6 @@ export function negativeContrast(elementId: any, flag: boolean) {
         console.error(`Element with ID ${elementId} not found.`);
         return;
     }
-    console.log(flag)
     if(flag){
         element.style.filter = `invert(1)`;
     }else{

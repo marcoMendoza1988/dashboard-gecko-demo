@@ -57,7 +57,6 @@ const Table: React.FC = () => {
     }, [filter]);
 
     // const filteredCrypto:any[] = currentRows.filter((crypto:any) => filter === 'all' || crypto.name.toLowerCase() === filter.toLowerCase());
-    console.log(currentRows)
     return (
         <div className="w-full overflow-hidden rounded-lg sm:px-4 pb-4 md:px-0 mt-4">
             <div className="flex justify-between">

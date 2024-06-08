@@ -15,11 +15,7 @@ const Dashboard: React.FC = () => {
   }, [fetchTrending]);
 
   const Trending = ({ data }: any) => {
-    useEffect(() => {
-      if (data) {
-        console.log(data.data)
-      }
-    }, [data])
+    
     return (
       <>
         <p>${formatPrice(data?.data?.total_market_cap.usd)}</p>

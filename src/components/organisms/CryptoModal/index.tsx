@@ -12,7 +12,7 @@ interface CryptoModalProps {
 const CryptoModal: React.FC<CryptoModalProps> = ({ isOpen, onClose, cryptoId, cryptoName }) => {
   useEffect(() => {
     if (isOpen) {
-      const fetchData = async () => {
+      const fetchData:any = async () => {
         const data = await getCandleData(cryptoId, '365');
         createChart(data);
       };
