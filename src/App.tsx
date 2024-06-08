@@ -13,7 +13,7 @@ const App: React.FC = () => {
         <div className="flex-1 ml-12 md:ml-64 transition-all duration-300">
           <Routes>
             <Route path="/" element={<Dashboard />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/dashboard-gecko-demo" element={<Dashboard />} />
             <Route path="/features" element={<Features />} />
           </Routes>
         </div>
