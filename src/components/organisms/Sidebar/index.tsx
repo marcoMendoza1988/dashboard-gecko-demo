@@ -26,7 +26,7 @@ const Sidebar: React.FC = () => {
       <ul className="mt-8">
         <li className={`mb-3`}>
           <NavLink
-            to="/"
+            to="/dashboard-gecko-demo"
             className={({ isActive }) =>
               `flex items-center md:justify-left space-x-2 py-2 rounded-lg ${isOpen ? 'pl-2' : 'pl-0'} ${
                 isActive ? 'bg-[#e53935] text-white' : 'text-black hover:text-gray-400'

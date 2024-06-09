@@ -1,8 +1,10 @@
+import FeatureSection from "../../organisms/FeatureSection";
+
 const Features = () => {
     return (
-        <>
-            <b>Hola soy un feature</b>
-        </>
+        <section className="p-4">
+            <FeatureSection />
+        </section>
     )
 }
 
