@@ -27,7 +27,7 @@ const FeatureSection: React.FC = () => {
             {
               title: 'Bitcoin alcanza un nuevo máximo histórico',
               description: 'El precio de Bitcoin superó los $60,000 por primera vez en la historia.',
-              imageUrl: 'https://example.com/bitcoin.jpg',
+              imageUrl: 'https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1480/https://s3.cointelegraph.com/uploads/2024-06/ee1721f6-c87e-40d5-abe2-23a67d4aa5ae.jpg',
               sourceName: 'CryptoNews.com',
               publishedAt: '2024-06-01',
               url: 'https://example.com/news/bitcoin-hits-new-all-time-high',
@@ -35,7 +35,7 @@ const FeatureSection: React.FC = () => {
             {
               title: 'Ethereum lanza su actualización London',
               description: 'Ethereum implementa EIP-1559 como parte de su última actualización.',
-              imageUrl: 'https://example.com/ethereum.jpg',
+              imageUrl: 'https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1480/https://s3.cointelegraph.com/uploads/2024-06/d8f76e48-341e-4573-98da-fa518a16d3c3.jpg',
               sourceName: 'CoinDesk',
               publishedAt: '2024-05-28',
               url: 'https://example.com/news/ethereum-london-upgrade',
