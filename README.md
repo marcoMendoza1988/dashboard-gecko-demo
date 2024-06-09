@@ -45,6 +45,7 @@ Este proyecto demuestra cómo configurar y desarrollar una aplicación web utili
 
 La estructura básica del proyecto será la siguiente:
 
+```bash
 dashboard-gecko-demo/
 ├── public/
 ├── src/
@@ -63,7 +64,7 @@ dashboard-gecko-demo/
 ├── tailwind.config.js
 ├── tsconfig.json
 └── vite.config.ts
-
+```
 
 ### Configuración de Tailwind CSS
 
