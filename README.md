@@ -48,15 +48,15 @@ La estructura básica del proyecto será la siguiente:
 dashboard-gecko-demo/
 ├── public/
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ ├── pages/
-│ ├── store/
-│ ├── styles/
-│ ├── App.tsx
-│ ├── main.tsx
-│ ├── index.css
-│ └── vite-env.d.ts
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── store/
+│   ├── styles/
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
+│   └── vite-env.d.ts
 ├── .gitignore
 ├── index.html
 ├── package.json
