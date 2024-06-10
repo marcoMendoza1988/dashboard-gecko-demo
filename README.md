@@ -27,8 +27,8 @@ Este proyecto demuestra cómo configurar y desarrollar una aplicación web utili
 
 1. **Crear el Proyecto con Vite y React**:
     ```bash
-    npm create vite@latest my-project --template react-ts
-    cd my-project
+    npm create vite@latest dashboard-gecko-demo --template react-ts
+    cd dashboard-gecko-demo
     ```
 
 2. **Instalar Dependencias Necesarias**:
